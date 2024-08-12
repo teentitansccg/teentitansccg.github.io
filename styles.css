@@ -3,21 +3,23 @@ header {
     background-size: cover;
     height: 20vh;
     margin: -8px;
+    padding: 20px;
 }
 
 #headerLogo {
     position: fixed;
     left: 0;
     top: 0;
-    height: 20vh;
+    height: 18vh;
     margin: 8px;
+    padding:28px;
 }
 
 #headerRobin {
     position: fixed;
     right: 0;
     top: 0;
-    height: 20vh;
+    height: 24.5vh;
 }
 
 body {
@@ -25,9 +27,38 @@ body {
     color: #aaa;
 }
 
+navigation {
+    text-align: center;
+    display: block;
+}
+
+.navButton {
+    background-color: #FBD12C;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: impact;
+    text-transform: uppercase;
+    transform: rotate(4deg);
+    margin-right: 13px;
+}
+
 footer {
     color: #aaaaaa;
     text-align: center;
     font-family: sans-serif;
     font-size: 12px;
+}
+
+/* Styles for Mobile */
+@media only screen and (max-width: 767px) {
+    #headerRobin {
+        margin-right: -160px;
+    }
 }
