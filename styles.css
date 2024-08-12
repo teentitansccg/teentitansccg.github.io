@@ -57,8 +57,11 @@ footer {
 }
 
 /* Styles for Mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 980px) {
     #headerRobin {
         margin-right: -160px;
+    }
+    .navButton {
+        font-size: 36px;
     }
 }
