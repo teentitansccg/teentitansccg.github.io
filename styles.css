@@ -74,9 +74,14 @@ navigation {
     transform: matrix(1, 0, 0, 1, 28.55, -0.425);
     background-size: 100%;
     display: block;
-    padding-top: 48%;
     width: 40%;
-    z-index: 14;
+}
+
+#ravenPurple img {
+    padding-top: 10%;
+    float: right;
+    height: 75%;
+    margin-right: -100px;
 }
 
 footer {
