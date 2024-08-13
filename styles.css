@@ -77,6 +77,10 @@ introduction {
     width: 55%
 }
 
+.summary strong {
+    color: white;
+}
+
 .introBlurb {
     font-family: sans-serif;
     line-height: 1.5em;
@@ -105,10 +109,21 @@ footer {
 
 /* Styles for Mobile */
 @media only screen and (max-width: 980px) {
-    #headerRobin {
-        margin-right: -160px;
-    }
     .navButton {
         font-size: 36px;
+    }
+    introduction {
+        display: block;
+    }
+    #ravenPurple {
+        display: flex;
+        z-index: 0;
+        position: absolute;
+        width: 80%;
+    }
+    .summary {
+        font-size: 1em;
+        margin-top: 30%;
+        background: radial-gradient(#000000, #00000020);
     }
 }
