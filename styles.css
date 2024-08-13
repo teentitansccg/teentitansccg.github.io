@@ -124,6 +124,7 @@ footer {
     .summary {
         font-size: 1em;
         margin-top: 30%;
-        background: radial-gradient(#000000, #00000020);
+        background: radial-gradient(#000000, #00000000 75%);
+        width: 100%;
     }
 }
