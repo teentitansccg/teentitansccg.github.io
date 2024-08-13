@@ -49,6 +49,18 @@ navigation {
     margin-right: 13px;
 }
 
+#ravenPurple {
+    background: url(https://raw.githubusercontent.com/teentitansccg/teentitansccg.github.io/main/src/ravenPurple.svg) center center no-repeat transparent;
+    background-size: 100%;
+    display: block;
+    padding-top: 48.385416666666667%;
+    position: absolute;
+    right: 10%;
+    top: 8.235%;
+    width: 40%;
+    z-index: 14;
+}
+
 footer {
     color: #aaaaaa;
     text-align: center;
