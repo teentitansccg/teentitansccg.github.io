@@ -67,10 +67,6 @@ navigation {
     transform: rotate(-4deg);
 }
 
-introduction {
-    padding-top: 30px;
-}
-
 .summary {
     margin: 5%;
     transform: rotate(-5deg) matrix(1, 0, 0, 1, 28.55, -0.425);
@@ -127,4 +123,13 @@ footer {
         background: radial-gradient(#000000, #00000000 75%);
         width: 100%;
     }
+    .summary h1 {
+        font-size: 100px;
+        line-height: .25em;
+    }
+    .introBlurb {
+        font-size: .75em;
+        padding-right: 50px;
+    }
+    
 }
