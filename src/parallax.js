@@ -14,7 +14,7 @@ $(document).ready(function($) {
 $(document).mousemove(function (c) {
     /*$( '#start' ).parallax( 0, c );*/
     $('#ravenPurple').parallax(-20, c);
-    $('#start-amber').parallax(-30, c);
+    $('#summary').parallax(-30, c);
     $('#start-stella').parallax(-50, c);
     $('#start-kaeya').parallax(-60, c);
 });

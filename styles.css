@@ -24,7 +24,17 @@ header {
 
 body {
     background-color: #000;
-    color: #aaa;
+    color: #CCC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: impact;
+    text-transform: uppercase;
+    color: #FBD12C;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 navigation {
@@ -49,14 +59,23 @@ navigation {
     margin-right: 13px;
 }
 
+.summary {
+    margin: 5%;
+    transform: rotate(-5deg) matrix(1, 0, 0, 1, 28.55, -0.425);
+}
+
+.introBlurb {
+    font-family: sans-serif;
+    width: 55%;
+    line-height: 1.5em;
+}
+
 #ravenPurple {
-    background: url(https://raw.githubusercontent.com/teentitansccg/teentitansccg.github.io/main/src/ravenPurple.svg) center center no-repeat transparent;
+    background: url(/src/ravenPurple.svg) center center no-repeat transparent;
+    transform: matrix(1, 0, 0, 1, 28.55, -0.425);
     background-size: 100%;
     display: block;
-    padding-top: 48.385416666666667%;
-    position: absolute;
-    right: 10%;
-    top: 8.235%;
+    padding-top: 48%;
     width: 40%;
     z-index: 14;
 }
