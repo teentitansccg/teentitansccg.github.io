@@ -71,7 +71,6 @@ navigation {
 }
 
 #ravenPurple {
-    background: url(/src/ravenPurple.svg) center center no-repeat transparent;
     transform: matrix(1, 0, 0, 1, 28.55, -0.425);
     background-size: 100%;
     display: block;
