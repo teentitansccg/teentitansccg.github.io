@@ -124,7 +124,7 @@ footer {
         width: 100%;
     }
     .summary h1 {
-        font-size: 100px;
+        font-size: 100px!important;
         line-height: .25em;
     }
     .introBlurb {
