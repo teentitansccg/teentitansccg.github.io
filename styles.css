@@ -7,7 +7,7 @@ header {
 }
 
 #headerLogo {
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     height: 18vh;
@@ -16,7 +16,7 @@ header {
 }
 
 #headerRobin {
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
     height: 24.5vh;
@@ -62,11 +62,11 @@ navigation {
 .summary {
     margin: 5%;
     transform: rotate(-5deg) matrix(1, 0, 0, 1, 28.55, -0.425);
+    width: 55%
 }
 
 .introBlurb {
     font-family: sans-serif;
-    width: 55%;
     line-height: 1.5em;
 }
 
