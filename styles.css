@@ -20,6 +20,9 @@ header {
     right: 0;
     top: 0;
     height: 24.5vh;
+    background: url(https://raw.githubusercontent.com/teentitansccg/teentitansccg.github.io/main/src/homeHeaderRobin.svg);
+    background-size:cover;
+    width: 24.5vh;
 }
 
 body {
@@ -57,6 +60,15 @@ navigation {
     text-transform: uppercase;
     transform: rotate(4deg);
     margin-right: 13px;
+}
+
+.navButton:hover {
+    background-color: #FBD12C90;
+    transform: rotate(-4deg);
+}
+
+introduction {
+    padding-top: 30px;
 }
 
 .summary {
